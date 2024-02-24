@@ -169,11 +169,46 @@ a:hover {
   font-size: 10px;
 }
 
-
+/* Footer */
 .footer {
   position: fixed;
   bottom: 0;
   width: 100%;
   text-align: center;
   padding: 20px 0;
+}
+
+/* Tabel  */
+table {
+  width: 900px;
+  border-collapse: collapse;
+  margin-top: 20px;
+
+
+  thead {
+    background-color: #333;
+    color: #fff;
+  }
+
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #555;
+    color: #fff;
+  }
+
+  tr:hover {
+    background-color: #444;
+  }
+
+  td:nth-child(3),
+  td:nth-child(4) {
+    cursor: pointer;
+  }
+
+  td:last-child,
+  th:last-child {
+    text-align: center;
+  }
 }
