@@ -35,6 +35,9 @@ const Header = () => {
             </li>
           ))}
           <li>
+            {user ? <Link to={'/admin'}>Admin</Link> : ''}
+          </li>
+          <li>
             {user ? <LogoutBtn /> : <Link to={'/login'}>Login</Link>}
           </li>
         </ul>
